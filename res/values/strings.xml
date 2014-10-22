@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageFixer</string>
+    <string name="title1">IMAGE</string>
+    <string name="title2">FIXER</string>
+    <string name="btnCamera">Take new image</string>
+    <string name="btnLoad">Select image</string>
+    <string name="ivPhoto">Photo editing</string>
+    <string name="btnCrop">Crop image</string>
+    <string name="btnSave">Save image</string>
+</resources>

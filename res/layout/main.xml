@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroud"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="50dp"
+     android:gravity="center_horizontal"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvTitle1"
+            style="@style/Title"
+            android:text="@string/title1" />
+
+        <TextView
+            android:id="@+id/tvTitle2"
+            style="@style/Title"
+            android:gravity="end"
+            android:text="@string/title2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="30dp" >
+
+        <ImageButton
+            android:id="@+id/btnLoad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:contentDescription="@string/btnLoad"
+            android:src="@drawable/load"
+            android:padding="10dp" />
+
+        <ImageButton
+            android:id="@+id/btnCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:contentDescription="@string/btnCamera"
+            android:src="@drawable/shutter"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>
